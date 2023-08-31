@@ -11,6 +11,7 @@ plugins:
       - Google
       - Amazon
       - Yandex
+      - Deepl
   translator_azure_subscription_key:
     default: ''
   translator_azure_region:
@@ -82,6 +83,8 @@ plugins:
     default: ''
   translator_yandex_api_key:
     default: ''
+  translator_deepl_api_key:
+    default: ''
   max_translations_per_minute:
     default: 3
   restrict_translation_by_group:
@@ -89,6 +92,6 @@ plugins:
     client: true
     type: group_list
   restrict_translation_by_poster_group:
-    default: "" 
+    default: ""
     client: true
     type: group_list
